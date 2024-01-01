@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  username: "Kalam",
+  username: "",
 };
 
 // Slice of the global ui state

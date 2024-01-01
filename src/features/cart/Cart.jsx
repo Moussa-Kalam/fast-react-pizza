@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux";
 import Button from "../../ui/Button";
 import LinkButton from "../../ui/LinkButton";
 import CartItem from "./CartItem";
@@ -27,6 +28,8 @@ const fakeCart = [
 ];
 
 function Cart() {
+  const username = useSelector((state) => state.user.username);
+
   const cart = fakeCart;
 
   return (
@@ -45,8 +48,7 @@ function Cart() {
         <Button type="primary" to="/order/new">
           Order pizzas
         </Button>
-
-        <Button type="secondary">Clear cart</Button>
+        <Button type="secondary">Clear cart</Button>, {username}
       </div>
     </div>
   );
