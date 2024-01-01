@@ -46,6 +46,10 @@ const cartSlice = createSlice({
       // Update the total price
       selectedPizza.totalPrice =
         selectedPizza.quantity * selectedPizza.unitPrice;
+
+      // Delete the item from the cart if the quantity is 0
+      if (selectedPizza.quantity === 0)
+        cartSlice.caseReducers.deleteItem(state, action);
     },
 
     clearCart(state) {
