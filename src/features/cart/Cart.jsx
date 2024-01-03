@@ -35,7 +35,6 @@ function Cart() {
         <Button type="secondary" onClick={handleClearCart}>
           Clear cart
         </Button>
-        , {username}
       </div>
     </div>
   );
