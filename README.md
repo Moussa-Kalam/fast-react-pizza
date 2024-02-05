@@ -13,11 +13,17 @@ Orders are made by sending a POST request with the order data (user data + selec
 ## Features
 
 **No Account Required:** Just input your name and you’re ready to order. No need to remember another password!
+
 **Dynamic Menu:** Our pizza menu is loaded from an API, ensuring you always have the latest options at your fingertips.
+
 **Easy Ordering:** Add multiple pizzas to your cart and place your order with just your name, phone number, and address. If possible, provide your GPS location for easier delivery.
+
 **Priority Orders:** In a hurry? Mark your order as “priority” for an additional 20% of the cart price and we’ll get your pizza to you as fast as possible.
+
 **Post-Order Modifications:** Changed your mind? You can mark your order as “priority” even after it has been placed.
+
 **Payment on Delivery:** No need to enter credit card information. Just pay when your pizza arrives.
+
 **Unique Order ID:** Every order gets a unique ID, so you can easily look up your order later.
 
 ## Pages
